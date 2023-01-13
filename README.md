@@ -15,3 +15,15 @@ Unfortunately, the reef is under threat, in part because of the overpopulation o
 pic credits(2018 Richard Whitcombe/Shutterstock @LiesurePro)
 
 They occur naturally on reefs throughout the Indo-Pacific region, and when conditions are right, they can reach plague proportions and devastate hard coral communities. These crown-of-thorns starfish are a major cause of coral loss on the Great Barrier Reef, after coral bleaching.
+
+**Goal of this git repository**
+1. For running inference using yolov5/X models.
+2. For visualization of tracking with ground truth annotation bounding boxes.
+3. I have also included scripts for implementing your own fold csv to test on your own test dataset.
+4. I have also incorporated script to calculate F2 score. (Original implementation Camaro)
+
+***For Visualization***
+Please open notebook named yolov5-trackviz-folding.ipynb
+
+***For training and testing of yolox***
+Please open notebook yolox-full-training-pipeline-for-cots-dataset.ipynb
